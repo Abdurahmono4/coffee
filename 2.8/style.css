@@ -1,0 +1,113 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style-type: none;
+}
+header {
+  margin: 20px 110px;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.left {
+  display: flex;
+  align-items: center;
+}
+
+.head-ul {
+  display: flex;
+}
+.head-ul {
+  gap: 20px;
+}
+.btn1 {
+  margin-left: 20px;
+  display: inline-flex;
+  padding: 12px 32px;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 4px;
+  background: var(--Primary-text, #1d2130);
+  color: #fff;
+}
+.list {
+  color: var(--Secondary-text, #525560);
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.top {
+  background: url(./BG.png);
+  padding: 128px 110px;
+  width: 1500px;
+  height: 735px;
+}
+.main-first {
+  flex-shrink: 0;
+}
+.title {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 76.8px */
+  width: 640px;
+}
+.btn {
+  color: var(--Primary-text, #1d2130);
+  text-align: right;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  display: inline-flex;
+  padding: 16px 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 4px;
+  background: #fff;
+  backdrop-filter: blur(40px);
+}
+.play {
+  color: #fff;
+  text-align: right;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: -20px;
+}
+.container2 {
+  margin-left: -20px;
+  gap: 24px;
+  display: flex;
+  align-items: center;
+  margin-top: 48px;
+}
+.bottom {
+  display: flex;
+  color: white;
+  align-items: center;
+  margin-top: 192px;
+}
+/* Jamoliddinov Ubaydullo */
+.text {
+  color: #fff;
+  text-align: right;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}

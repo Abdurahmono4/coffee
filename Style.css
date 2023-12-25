@@ -1,0 +1,180 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul li,
+ol li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  border: 0;
+  background: transparent;
+}
+
+img,
+image {
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+  width: 100%;
+  /* overflow: hidden; */
+  /* max-width: 1440px; */
+  max-width: 1170px;
+  margin: 0 auto;
+  /* background: chartreuse; */
+}
+
+.header-section {
+  position: relative;
+}
+
+.header-img {
+  position: absolute;
+  background-position-x: -155px;
+  z-index: -55;
+  right: -270px;
+}
+
+.navbar-content {
+  display: flex;
+  padding: 24px 30px;
+  justify-content: space-between;
+}
+
+.navbar-logo {
+}
+
+.navbar-button {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 28px;
+  margin-right: 70px;
+  font-family: Plus Jakarta Sans;
+
+  padding: 14px 31px;
+  border-radius: 28px;
+  background: #13183f;
+}
+
+.hero-content {
+  padding: 160px 30px 200px;
+}
+
+.hero-title {
+  width: 100%;
+  max-width: 457px;
+  color: #13183f;
+  font-size: 56px;
+  font-weight: 800;
+  line-height: normal;
+  font-family: Plus Jakarta Sans;
+}
+
+.hero-subtitle {
+  width: 100%;
+  max-width: 457px;
+  margin: 30px 0 40px;
+  color: #83869a;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+
+  font-family: Plus Jakarta Sans;
+}
+
+.hero-link {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 28px;
+  font-family: Plus Jakarta Sans;
+
+  padding: 20px 30px;
+  border-radius: 32px;
+  background: linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%);
+}
+
+.main-content {
+  row-gap: 80px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.card {
+  gap: 24px;
+  width: 350px;
+  height: 322px;
+  display: flex;
+  position: relative;
+  background: #fff;
+  border-radius: 15px;
+  flex-direction: column;
+  padding: 64px 32px 40px;
+  box-shadow: 0px 25px 50px 0px rgba(6, 22, 141, 0.04);
+}
+
+.card-icon {
+  left: 24px;
+  top: -24px;
+  width: 56px;
+  height: 56px;
+  display: flex;
+  border-radius: 50%;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%);
+}
+
+.card-icon__img {
+  width: 18px;
+  height: 18px;
+}
+
+.firts {
+  background: linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%);
+}
+
+.card-text {
+  color: #fff;
+  font-family: Plus Jakarta Sans;
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 40px;
+  background: linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%);
+}
+
+.card-title {
+  color: #13183f;
+  font-size: 24px;
+  font-weight: 800;
+  line-height: normal;
+  font-family: Plus Jakarta Sans;
+}
+
+.card-subtitle {
+  color: #83869a;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  font-family: Plus Jakarta Sans;
+}
+
+.card-link {
+  color: #f74780;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 28px;
+  font-family: Plus Jakarta Sans;
+}
